@@ -76,15 +76,15 @@ export default function HomeSearch() {
     }
 
     return (
-        <div class="home-search-container">
-            <img class="home-search-container-bg" src={`logistics.webp`} />
-            <div class="home-search-box">
+        <div className="home-search-container">
+            <img className="home-search-container-bg" src={`logistics.webp`} />
+            <div className="home-search-box">
                 <div className="card">
                     <h5>Default</h5>
                     <TabView>
                         <TabPanel header="SEA (FCL)">
-                            <div class="flex">
-                                <div class="home-search-from">
+                            <div className="flex">
+                                <div className="home-search-from">
                                     {/* <h5>From</h5> */}
                                     <AutoComplete 
                                         value={selectedCountry2} 
@@ -97,7 +97,7 @@ export default function HomeSearch() {
                                         placeholder='-- From --'
                                     />
                                 </div>
-                                <div class="ml-1 home-search-to">
+                                <div className="ml-1 home-search-to">
                                     {/* <h5>To</h5> */}
                                     <AutoComplete 
                                         value={selectedCountry2} 
@@ -110,7 +110,7 @@ export default function HomeSearch() {
                                         placeholder='-- To --'
                                     />
                                 </div>
-                                <div class="ml-1 home-search-container-type">
+                                <div className="ml-1 home-search-container-type">
                                     <Dropdown 
                                         value={selectedGroupedCity} 
                                         options={groupedCities} 
@@ -122,7 +122,7 @@ export default function HomeSearch() {
                                     />
                                 </div>
                             </div>
-                            <div class="flex">
+                            <div className="flex">
                                 <Button className="mt-2 ml-auto p-button-warning" label="SEARCH" />
                             </div>
                             
