@@ -31,3 +31,45 @@ header {
     border-radius: 4px;
     padding: 24px;
 }
+
+.home-search-container {
+    /* background-image: url('/logistics.jpeg');
+    height: 200px;
+    background-repeat: no-repeat; */
+    /* height: 200px; */
+    /* background: url('/logistics.jpeg') no-repeat center #eee; */
+
+    transition: all 200ms ease 0s;
+    width: 100%;
+    height: calc(100vh - 60px);
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.home-search-container-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    inset: 0px;
+}
+
+.home-search-box {
+    position: relative;
+    width: 980px;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.home-search-title {
+    color: white;
+}

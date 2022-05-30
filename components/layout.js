@@ -4,7 +4,7 @@ export default function Layout({ children }) {
     return (
         <>
             <Header></Header>
-            <div>THIS IS LAYOUT</div>
+            {/* <div>THIS IS LAYOUT</div> */}
             <div>{children}</div>
         </>
     )
