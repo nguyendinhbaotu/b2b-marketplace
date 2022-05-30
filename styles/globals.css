@@ -5,7 +5,7 @@ html {
 body {
     margin: 0px;
     height: 100%;
-    padding: 2rem;
+    /* padding: 2rem; */
     overflow-x: hidden;
     overflow-y: auto;
     background-color: var(--surface-ground);
@@ -14,4 +14,20 @@ body {
     color: var(--text-color);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+    padding: 10px;
+    background: white;
+}
+
+.card {
+    
+}
+
+.card-container {
+    background: var(--demo-bg-link);
+    border: 1px dashed;
+    border-radius: 4px;
+    padding: 24px;
 }
