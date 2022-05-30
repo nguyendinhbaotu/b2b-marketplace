@@ -80,7 +80,6 @@ export default function HomeSearch() {
             <img className="home-search-container-bg" src={`logistics.webp`} />
             <div className="home-search-box">
                 <div className="card">
-                    <h5>Default</h5>
                     <TabView>
                         <TabPanel header="SEA (FCL)">
                             <div className="flex">
